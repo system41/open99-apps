@@ -18,4 +18,3 @@ Preinstalled open99 applications' source code, previously `system/applications`
 > When will open99 be released/When will Windows99's first release be released?  
   **The release date is TBD. open99 and Windows99 take a lot of time to develop.**  
   
-open99-apps will remain archived until news of Windows99's first release.
