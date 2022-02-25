@@ -1,4 +1,4 @@
-function ghostCursor(options) {
+function ghostCursor(options, lifeSpan = 40) {
   let hasWrapperEl = options && options.element
   let element = hasWrapperEl || document.body
 
@@ -107,7 +107,6 @@ function ghostCursor(options) {
    */
 
   function Particle(x, y, image) {
-    const lifeSpan = 40
     this.initialLifeSpan = lifeSpan //ms
     this.lifeSpan = lifeSpan //ms
     this.position = { x: x, y: y }
