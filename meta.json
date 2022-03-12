@@ -1,0 +1,29 @@
+{
+    "name": "System",
+    "id": "open99",
+    "description": "Preinstalled open99 apps on your system",
+    "apps": [
+        {
+            "id": "cursor-setup",
+            "name": "Cursor setup",
+            "description": "Setup wizard for cursors",
+            "categories": ["system", "utility"],
+            "version": "0.1",
+            "depends": [],
+            "icons": {},
+            "root": "$SOURCE_PATH$/cursor-setup"
+        },
+        {
+            "id": "md",
+            "name": "Cursor setup utility",
+            "description": "Setup wizard for cursors",
+            "categories": ["system", "utility"],
+            "alias": ["md", "markdown", "mdown"],
+            "version": "0.1",
+            "depends": [],
+            "icons": {},
+            "root": "$SOURCE_PATH$/cursor-setup"
+        },
+    ],
+    "author": "system41"
+}
