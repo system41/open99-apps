@@ -15,15 +15,16 @@
         },
         {
             "id": "md",
-            "name": "Cursor setup utility",
-            "description": "Setup wizard for cursors",
+            "name": "Markdown viewer",
+            "description": "",
             "categories": ["system", "utility"],
             "alias": ["md", "markdown", "mdown"],
             "version": "0.1",
             "depends": [],
             "icons": {},
             "root": "$SOURCE_PATH$/cursor-setup"
-        },
+        }
     ],
-    "author": "system41"
+    "author": "system41",
+    "license": "MIT"
 }
