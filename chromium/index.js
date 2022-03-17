@@ -48,3 +48,9 @@ bookmarks.forEach(function(item){
     btn.type = "button"
     bookmarkBar.appendChild(btn)
 })
+
+app.addEventListener("keyup", function(e){
+    if(e.key = "Enter" && app.children[0].getElementsByTagName('input')[0] === document.activeElement){
+        app.getElementsByTagName('iframe').setAttribute('src', app.children[0].getElementsByTagName('input')[0].value)
+    }
+})
