@@ -51,7 +51,7 @@ bookmarks.forEach(function(item){
     icon.width = '16px'
     icon.height = '16px'
     btn.appendChild(icon)
-    btn.innerText += item.name
+    //btn.innerText += item.name
     bookmarkBar.appendChild(btn)
 })
 
