@@ -46,6 +46,9 @@ bookmarks.forEach(function(item){
     btn.ariaLabel = item.name + " " + item.url
     btn.title = item.name + " " + item.url
     btn.type = "button"
+    let icon = document.createElement('img')
+    icon.src = item.icon
+    btn.appendChild(icon)
     bookmarkBar.appendChild(btn)
 })
 
