@@ -49,6 +49,7 @@ bookmarks.forEach(function(item){
     let icon = document.createElement('img')
     icon.src = item.icon
     btn.appendChild(icon)
+    btn.innerText += item.name
     bookmarkBar.appendChild(btn)
 })
 
