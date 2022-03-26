@@ -36,19 +36,19 @@ nav button svg {
     width: 22px;
 }
 
-button:hover {
+nav button:hover {
     background-color: rgb(103, 103, 103);
 }
 
-button:active {
+nav button:active {
     background-color: rgb(110, 110, 110);
 }
 
-button:disabled {
+nav button:disabled {
     background-color: inherit;
 }
 
-button:disabled svg {
+nav button:disabled svg {
     fill: rgb(152, 152, 152);
 }
 
